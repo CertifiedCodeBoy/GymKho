@@ -4,7 +4,7 @@ import "./LandingPageStyles.css";
 const LandingNav = () => {
   return (
     <nav>
-      <div className="container mx-auto bg-blue-500 p-8 flex justify-between items-center">
+      <div className="container mx-auto p-8 flex justify-between items-center">
         {/* Logo and title */}
         <div className="flex justify-between gap-4 items-center">
           <div className="bg-purple-600 rounded-2xl w-10 h-10"></div>
@@ -40,7 +40,7 @@ const LandingNav = () => {
           </Link>
           <Link
             to={"SignUp"}
-            className="bg-white text-blue-500 px-4 py-2 rounded-lg"
+            className="bg-white text-[#A022F5] px-4 py-2 rounded-lg"
           >
             Sign Up
           </Link>
