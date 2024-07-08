@@ -4,7 +4,7 @@ import "./LandingPageStyles.css";
 
 const LandingPage = () => {
   return (
-    <div className="LandingContainer overflow-hidden">
+    <div className="overflow-hidden">
       <LandingNav />
       <div className="md:grid md:grid-cols-2 md:grid-rows-1 container mx-auto md:items-center">
         <h1
