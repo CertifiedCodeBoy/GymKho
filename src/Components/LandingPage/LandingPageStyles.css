@@ -18,11 +18,47 @@
   width: 38px;
 }
 
+.custom-class.active::after {
+  width: 38px;
+}
+
 .LandingContainer {
-  background-image: url("../../assets/background.png");
+  background-image: url("../../assets/background1.png");
+  background-size: cover;
+  background-color: #0e0419;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+/* 
+.LandingContainer2 {
+  background-image: url("src/assets/background.png");
   background-size: cover;
   background-color: #0e0419;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+}
+.LandingContainer3 {
+  background-image: url("../../assets/background3.png");
+  background-size: cover;
+  background-color: #0e0419;
+  background-repeat: no-repeat;
+  height: 1289px;
+  width: 1635px;
+  background-position-y: 2504px;
+  background-position-x: 1556px;
+} */
+
+.customLogin::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  bottom: 2px;
+  background-color: #a022f5;
+  width: 0;
+  display: block;
+  transition: width 0.3s ease-in-out;
+}
+
+.customLogin:hover::after {
+  width: 50px;
 }
